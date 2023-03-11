@@ -51,4 +51,9 @@ document.addEventListener("DOMContentLoaded", function() {
         addEmojiWrapper(buttonNext, ["☝️", "💰", "🚀", "😎", "🔮", "!?️", "🏁", "🤔", "🦄", "🐴"]);
     });
     
+    const emojiButtonsSee = document.querySelectorAll('[data-trigger="emoji-see"]');
+    emojiButtonsNo.forEach(function(buttonSee) {
+        addEmojiWrapper(buttonSee, ["💎", "😮", "🥂", "🎊", "🥳", "💸", "💡", "💙", "👍", "🆒"]);
+    });
+    
 });
