@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function() {
         emojiWrapper.style.right = '0px';
         emojiWrapper.style.pointerEvents = 'none';
         emojiWrapper.classList.add('emojiWrapper');
-    
         button.addEventListener('mouseenter', function() {
         emojisplosion({
             emojis: emojis,
