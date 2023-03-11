@@ -57,5 +57,5 @@ document.addEventListener("DOMContentLoaded", function() {
     emojiButtonsSee.forEach(function(buttonSee) {
         addEmojiWrapper(buttonSee, ["💎", "😮", "🥂", "🎊", "🥳", "💸", "💡", "💙", "👍", "🆒"]);
     });
-    
+   
 });
