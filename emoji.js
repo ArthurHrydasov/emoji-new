@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", function() {
     function addEmojiWrapper(button, emojis) {
         const wrapper = document.createElement('div');
@@ -8,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         wrapper.style.zIndex = 99999;
         wrapper.style.position = 'relative';
         wrapper.style.transform = 'translateZ(0)';
+
         emojiWrapper.style.position = 'absolute';
         emojiWrapper.style.top = '0px';
         emojiWrapper.style.right = '0px';
@@ -46,12 +49,12 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     
     const emojiButtonsNext = document.querySelectorAll('[data-trigger="emoji-next"]');
-    emojiButtonsNo.forEach(function(buttonNext) {
+    emojiButtonsNext.forEach(function(buttonNext) {
         addEmojiWrapper(buttonNext, ["☝️", "💰", "🚀", "😎", "🔮", "!?️", "🏁", "🤔", "🦄", "🐴"]);
     });
     
     const emojiButtonsSee = document.querySelectorAll('[data-trigger="emoji-see"]');
-    emojiButtonsNo.forEach(function(buttonSee) {
+    emojiButtonsSee.forEach(function(buttonSee) {
         addEmojiWrapper(buttonSee, ["💎", "😮", "🥂", "🎊", "🥳", "💸", "💡", "💙", "👍", "🆒"]);
     });
     
