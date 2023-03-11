@@ -45,4 +45,10 @@ document.addEventListener("DOMContentLoaded", function() {
     emojiButtonsNo.forEach(function(buttonNo) {
         addEmojiWrapper(buttonNo, ["😐", "🚫", "🤚", "🏃‍♂️", "🐴", "🌝", "🍂", "🪗", "🗿", "🧻"]);
     });
+    
+    const emojiButtonsNext = document.querySelectorAll('[data-trigger="emoji-next"]');
+    emojiButtonsNo.forEach(function(buttonNext) {
+        addEmojiWrapper(buttonNext, ["☝️", "💰", "🚀", "😎", "🔮", "!?️", "🏁", "🤔", "🦄", "🐴"]);
+    });
+    
 });
